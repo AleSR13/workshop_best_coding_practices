@@ -8,9 +8,6 @@ my_helper();
 'Text'
 'Text with "double" and \'single\' quotes'
 
-# Logical vectors
-
-am_i_hungry <- T
 
 # Spacing between parenthesis and after a comma
 another_variable = mean(
@@ -32,3 +29,8 @@ my_function(
 # Multi-line statement with no braced expressions
 if (x > 10)
     x * 2
+
+# Pipes not corrected by styler
+strings %>%
+    str_replace("a", "b") |>
+    str_replace("x", "y")

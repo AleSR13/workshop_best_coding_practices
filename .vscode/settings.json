@@ -1,0 +1,15 @@
+{
+  "black-formatter.args": [
+    "-l",
+    "80"
+  ],
+  "editor.rulers": [
+    80,
+    100
+  ],
+  "[python]": {
+    "editor.formatOnType": false,
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  },
+}
