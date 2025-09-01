@@ -1,4 +1,11 @@
+# R
 .Rproj.user
 .Rhistory
 .RData
 .Ruserdata
+..Rcheck
+
+# Python
+
+__pycache__
+.pytest_cache

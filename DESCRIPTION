@@ -4,10 +4,8 @@ Version: 0.1.0
 Authors@R: 
     person("Alejandra", "Hernandez Segura", , "ale@example.com", role = c("aut", "cre"))
 Description: Contains functions to test BMI.
-License: GPL (>= 3)
+License: GPL-3
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.2
-Suggests: 
-    testthat (>= 3.0.0)
-Config/testthat/edition: 3
+Depends: R (>= 3.5.0)
