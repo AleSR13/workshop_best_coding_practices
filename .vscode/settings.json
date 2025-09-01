@@ -4,8 +4,7 @@
     "80"
   ],
   "editor.rulers": [
-    80,
-    100
+    80, 120
   ],
   "[python]": {
     "editor.formatOnType": false,
